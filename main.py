@@ -25,9 +25,4 @@ for d, s, f in os.walk(content_path):
             with open('modules.json', 'w') as data:
                 json.dump(dict_object, data)
 
-for k, v in dict_object.items():
-    print(v)
-
-print(f'\n')
 print(f'All good.')
-
