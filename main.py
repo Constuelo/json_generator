@@ -4,7 +4,7 @@ import json
 
 
 snippet_ext = '.json'  # Extension name for sublimes snippet files
-convert_dir = '/convert'  # Location for input files
+convert_dir = 'convert'  # Location for input files
 
 path = Path(os.path.dirname(__file__))
 content_path = Path(os.path.dirname(__file__) + convert_dir)
